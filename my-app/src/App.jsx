@@ -54,6 +54,8 @@ function App() {
               <h1>
                 This is my React app hosted on S3
                 <br /> bucket and accessing via CloudFront
+                <br /> Seeing result after changing lines in code
+                <br /> for codepipeline
               </h1>
               <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>Increase</button>
